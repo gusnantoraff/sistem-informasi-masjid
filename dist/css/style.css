@@ -1,0 +1,316 @@
+.main-sidebar {
+    background-color: #14B8A6;
+}
+
+.content {
+    margin-left: 5px;
+}
+
+.content-wrapper {
+    background-color: white;
+    overflow: hidden;
+}
+
+.nav-sidebar .nav-link:hover {
+    background-color: #F97F30 !important;
+}
+
+.main-sidebar .nav-link {
+    color: white !important;
+}
+
+.main-sidebar .nav-link .nav-icon {
+    color: white !important;
+}
+
+.custom-nav {
+    width: 100%;
+    height: 50px;
+}
+
+.container-logo {
+    width: 250px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.container-small-logo {
+    width: 56px;
+    height: auto;
+    padding: 22px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.hidden {
+    display: none;
+}
+
+.logo {
+    filter: brightness(0) invert(1);
+    max-width: 118px;
+    height: auto;
+    transition: all 0.3s ease;
+}
+
+.small-logo {
+    filter: brightness(0) invert(1);
+    width: 31px;
+    height: 34px;
+    transition: all 0.3s ease;
+}
+
+.custom-nav {
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+}
+
+.welcome {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    font-family: 'Nunito Sans';
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left i {
+    font-size: 24px;
+}
+
+.navbar-left a {
+    margin-right: 10px;
+    color: #14B8A6;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.notif-icon {
+    margin-right: 20px;
+    cursor: pointer;
+    color: #14B8A6;
+}
+
+.notif-icon i {
+    font-size: 24px;
+}
+
+.profile-pic {
+    margin-right: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-menu.show {
+    display: flex;
+}
+
+.profile-pic img {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.profile-pic i {
+    font-size: 22px;
+}
+
+.inner p {
+    padding: 10px 0 0 10px;
+    font-family: 'Nunito Sans';
+    opacity: 70%;
+    color: #202224;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+.inner h5 {
+    padding: 0 0 10px 10px;
+    font-family: 'Nunito Sans';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+}
+.row{
+    margin-bottom: 20px;
+}
+
+.small-box {
+    border-radius: 10px;
+    background-color: white;
+}
+
+.small-box:hover {
+    background-color: #EDF1F8;
+}
+
+.statistik {
+    border-radius: 0.25rem;
+    display: block;
+    position: relative;
+    height: 213px;
+}
+
+.rentang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid #C0C4C4;
+    border-radius: 15px;
+}
+
+.rentang select {
+    border: none;
+    background-color: white;
+    border-radius: 15px;
+    padding: 0 10px;
+    font-size: 13px;
+    color: #C0C4C4;
+    cursor: pointer;
+    outline: none;
+}
+
+.rentang option {
+    color: black;
+}
+
+.col-lg-4 {
+    max-width: 380px;
+    flex: 0 0 auto;
+    margin-right: 10px;
+}
+
+.col-lg-4:hover {
+    background-color: #EDF1F8;
+}
+
+.col-lg-3 {
+    max-width: 250px;
+    flex: 0 0 auto;
+    margin-right: 10px;
+}
+
+.icon-box,
+.icon-box2,
+.icon-box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 25px;
+    top: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 40%;
+}
+
+.icon-box {
+    background-color: #8280ff3e;
+}
+
+.icon-box2 {
+    background-color: #fec43d2e;
+}
+
+.icon-box3 {
+    background-color: #4ad9922e;
+}
+
+.icon1 {
+    color: #8280FF;
+    font-size: 24px;
+}
+
+.icon2 {
+    color: #FEC53D;
+    font-size: 24px;
+}
+
+.icon3 {
+    color: #4AD991;
+    font-size: 24px;
+}
+
+.icon-stat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.icon-stat img{
+    width: 300px;
+    height: 150px;
+}
+
+.statistik-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.span {
+    padding-bottom: 20px;
+    font-family: 'Nunito Sans';
+    opacity: 70%;
+    font-weight: 600;
+    line-height: 18px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+
+.kenaikan {
+    color: #00B69B;
+    margin-right: 3px;
+}
+
+.penurunan {
+    color: #F93C65;
+    margin-right: 3px;
+}
+
+.icon-perubahan {
+    margin-right: 5px;
+    width: 17px;
+    height: 10px;
+}
