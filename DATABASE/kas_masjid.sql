@@ -96,8 +96,6 @@ CREATE TABLE `tb_pengguna` (
 INSERT INTO `tb_pengguna` (`id_pengguna`, `nama_pengguna`, `email`, `password`, `telp`, `level`, `created_at`, `updated_at`, `deleted_at`) VALUES
 (1, 'Gusnanto Rafly', 'admin@gmail.com', 'admin', 812345678, 'Administrator', '2024-09-21 22:01:18', '2024-09-22 15:57:07', NULL),
 (2, 'Haidar Taqi', 'afamerteam@gmail.com', 'admin123wkwk', 81234567, 'Administrator', '2024-09-22 11:52:22', '2024-09-22 18:52:22', NULL),
-om', 'admin', 812345678, 'Administrator', '2024-09-21 22:01:18', '2024-09-22 15:57:07', NULL),
-om', 'admin', 812345678, 'Administrator', '2024-09-21 22:01:18', '2024-09-22 15:57:07', NULL),
 (235, 'asdasd', 'asdasd', 'asd', 0, '', '2024-09-22 07:57:37', '2024-09-22 14:58:29', '2024-09-22 14:58:29'),
 (236, 'asdasd', 'asda', 'dasd', 0, 'Administrator', '2024-09-22 08:03:32', '2024-09-22 15:03:49', '2024-09-22 15:03:49'),
 (238, 'Jamaah 1', 'jamaah@gmail.com', 'jamaah', 8888888, 'Jamaah', '2024-09-22 08:56:52', '2024-09-22 15:56:52', NULL);
